@@ -30,7 +30,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "mk": "mkcert create-ca"
+    "mk": "mkcert create-ca --organization 'SENAI' --country-code 'BR' --state 'Santa Catarina' --locality 'Jaragua do Sul'",
+    "mk2": "mkcert create-cert --domains 'localhost'"
   },
   "eslintConfig": {
     "extends": [
